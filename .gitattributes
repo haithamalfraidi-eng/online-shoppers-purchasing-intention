@@ -1,0 +1,5 @@
+* text=auto
+data/online_shoppers_intention.csv -text
+original/*.py -text
+*.png binary
+*.joblib binary

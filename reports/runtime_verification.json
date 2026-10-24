@@ -1,0 +1,6 @@
+{
+  "health_http_status": 200,
+  "health_body": "ok",
+  "homepage_http_status": 200,
+  "note": "HTTP startup smoke check; interactive rendering is covered separately by Streamlit AppTest."
+}
