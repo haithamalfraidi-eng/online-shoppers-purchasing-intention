@@ -1,0 +1,10 @@
+{
+  "github_url": "https://github.com/haithamalfraidi-eng/online-shoppers-purchasing-intention",
+  "visibility": "public",
+  "branch": "main",
+  "fresh_github_clone_tests": {"passed": 15, "failed": 0},
+  "fresh_github_clone_streamlit_health_http_status": 200,
+  "fresh_github_clone_streamlit_homepage_http_status": 200,
+  "live_application_url": null,
+  "deployment_status": "Pending Streamlit sign-in; no live application URL verified. Local deployment browser launch was rejected by automatic policy review."
+}

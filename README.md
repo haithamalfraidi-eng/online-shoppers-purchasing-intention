@@ -2,6 +2,8 @@
 
 A reproducible Online Shoppers Purchasing Intention portfolio MVP: audited exploratory analysis, Logistic Regression and Random Forest classifiers, and an interactive Streamlit dashboard for conversion insights and experimental purchase prediction.
 
+[GitHub repository](https://github.com/haithamalfraidi-eng/online-shoppers-purchasing-intention). Live deployment is pending Streamlit account access; no public application URL has been verified.
+
 ## Run locally
 
 Use Python 3.11. From this directory:
@@ -107,6 +109,8 @@ UCI describes different users across sessions, but this CSV has no user IDs to v
 Requirements were installed in a fresh Python 3.11 virtual environment and checked with `pip check`. The same suite also runs in that environment. `scripts/verify_runtime.py` starts the actual Streamlit server and checks the homepage and health endpoint return HTTP 200. Runtime evidence is in `reports/runtime_verification.json`; the verified dependency versions are recorded in `reports/verified-environment.txt`.
 
 Retraining in that fresh environment reproduced every saved test prediction exactly (`reports/reproduction_verification.json`). Git attributes disable newline conversion for the original scripts and dataset so cloning preserves their byte-level checksums.
+
+A fresh clone from the published GitHub repository also passed all 15 tests and the actual Streamlit HTTP startup checks.
 
 Reproduction commands overwrite generated outputs only; original files are not modified. Retraining is explicit and is not triggered by dashboard visitors.
 
